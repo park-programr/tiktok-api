@@ -1,0 +1,8 @@
+{
+  "builds": [
+    { "src": "api/main.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/api/tiktok", "dest": "api/main.py" }
+  ]
+}
